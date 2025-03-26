@@ -14,5 +14,6 @@
 
     html {
         font-family: "Wedding", sans-serif;
+        background-color: --heroui-default-200;
     }
   }
