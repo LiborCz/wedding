@@ -4,16 +4,20 @@
 
 @layer base {
     @font-face {
-      font-family: 'Wedding';
+      font-family: 'Wedding1';
       font-style: normal;
-      font-weight: 600;
       font-display: swap;
-      font-size: text-5xl   ;
       src: url(/fonts/TheWeddingSignature-Regular.woff2) format('woff2')
     }
 
+    @font-face {
+        font-family: 'Wedding';
+        font-style: normal;
+        font-display: swap;
+        src: url("/fonts/Photograph Signature.ttf") format('woff2')
+      }
+
     html {
-        font-family: "Wedding", sans-serif;
-        background-color: --heroui-default-200;
+        font-family: "Wedding", "Wedding1", sans-serif;
     }
   }
