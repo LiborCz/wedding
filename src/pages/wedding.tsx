@@ -18,13 +18,22 @@ export default function Wedding() {
         </div>
       </section>
 
-      <section className="mt-20 p-10 font-sans text-xl sm:text-2xl lg:text-3xl drop-shadow-xl text-center">
-        <p className="text-center mb-4">Srdečně Vás zveme na svatbu v Zámku Veltrusy</p>
-        <p className="mb-20">...a postupně se zde objeví více informací...</p>
+      <section className="mt-20 p-10 font-sans text-xl  drop-shadow-xl text-center flex flex-col items-center">
+        <div>
+          <p className="text-6xl mb-4">Srdečně Vás zveme na svatbu na Zámku Veltrusy</p>
+          <p className="bold mb-10">dne 26.4.2025 ve 12:15</p>
+        </div>
+        
+        <div className="w-3/4">
+          <p className="text-2xl mb-6">Následně proběhne odpoledne svatební hostina na nedalekém statku, kde je i možnost přespání.</p>
+          <p className="text-2xl mb-10">Poprosím o zpětnou vazbu, zda se s Vámi uvidíme.</p>
+          <p className="text-xl mb-20">--- později se na této stránce objeví více informací ---</p>
+        </div>
 
-        <p className="mb-10">Budeme se moc těšit na setkání</p>
-
-        <p className="mb-20">Libor & Regina</p>
+        <div className="sm:text-2xl lg:text-3xl">
+          <p className="mb-10">Budeme se moc těšit na setkání</p>
+          <p className="mb-20">Libor & Regina</p>
+        </div>
       </section>
 
     </div>
