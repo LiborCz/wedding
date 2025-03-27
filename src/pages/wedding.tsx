@@ -12,7 +12,7 @@ export default function Wedding() {
           <span className="text-4xl sm:text-6xl lg:text-8xl">Libor & Regina</span>
         </div>
 
-        <div className="absolute right-0 bottom-0 mr-10 mb-6 font-wedding2 text-3xl sm:text-4xl lg:text-6xl text-right">
+        <div className="absolute right-0 bottom-0 mr-10 mb-6 font-wedding2 text-2xl sm:text-3xl lg:text-5xl text-right">
           <span>Sobota 26. Dubna{' '}</span><br/>
           <span className="pt-5">Zámek Veltrusy</span>
         </div>
