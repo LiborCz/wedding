@@ -26,7 +26,7 @@ export default function Wedding() {
         
         <div className="w-3/4">
           <p className="text-2xl mb-6">Následně proběhne odpoledne svatební hostina na nedalekém statku, kde je i možnost přespání.</p>
-          <p className="text-2xl mb-10">Poprosím o zpětnou vazbu, zda se s Vámi uvidíme.</p>
+          <p className="text-2xl mb-10">Poprosím co nejdříve o zpětnou vazbu, zda se s Vámi uvidíme.</p>
           <p className="text-small mb-10">--- později se na této stránce objeví více informací ---</p>
         </div>
 
