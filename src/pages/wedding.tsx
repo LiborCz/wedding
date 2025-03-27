@@ -1,6 +1,6 @@
 export default function Wedding() {
   return (
-    <div className="w-full pb-20 text-center no-scrollbar">
+    <div className="w-full pb-4 lg:pb-20 text-center no-scrollbar">
       <section className="h-full flex justify-center relative bg-stone-300">
         <img src="/img/bg-nadvori.png" className="w-4/5" />
         <div className="absolute left-0 bottom-0 w-full z-10">
@@ -32,7 +32,7 @@ export default function Wedding() {
 
         <div className="sm:text-2xl lg:text-3xl">
           <p className="mb-10">Budeme se moc těšit na setkání</p>
-          <p className="mb-20">Libor & Regina</p>
+          <p className="mb:4 lg:mb-20">Libor & Regina</p>
         </div>
       </section>
 
