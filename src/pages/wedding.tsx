@@ -27,7 +27,7 @@ export default function Wedding() {
         <div className="w-3/4">
           <p className="text-2xl mb-6">Následně proběhne odpoledne svatební hostina na nedalekém statku ( 
           <a href="https://www.statek1738.cz"> <span className="underline">Statek 1738</span></a> ), kde lze zůstat i na noc.</p>
-          <p className="text-lg mb-6">( Pokud uvažujete o přespání, dejte vědět, aby jsme domluvili velikost pokoje a nejlepší způsob rezervace. V okolí je možné si udělat hezkou procházku k nedalekému Labi nebo se projet po cyklostezce... )</p>
+          <p className="text-lg mb-6">( Pokud uvažujete o přespání, dejte vědět, aby jsme domluvili velikost pokoje a nejlepší způsob rezervace. V okolí je možné si udělat hezkou procházku k nedalekému Labi nebo se projet po cyklostezce...)</p>
 
           <p className="text-2xl mt-10 mb-10">Poprosím co nejdříve o zpětnou vazbu, zda se s Vámi uvidíme a kolik Vás přijede.</p>
 
