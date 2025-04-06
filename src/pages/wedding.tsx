@@ -1,4 +1,4 @@
-import InfoAccordion from "@/modules/InfoAccordion";
+// import InfoAccordion from "@/modules/InfoAccordion";
 
 export default function Wedding() {
   return (
