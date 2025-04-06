@@ -1,4 +1,4 @@
-// import InfoAccordion from "@/modules/InfoAccordion";
+import InfoAccordion from "@/modules/InfoAccordion";
 
 export default function Wedding() {
   return (
@@ -45,7 +45,7 @@ export default function Wedding() {
 
       <p className="font-sans text-xs mb-6">--- průbežně budu informace níže aktualizovat ---</p>
 
-      {/* <InfoAccordion /> */}
+      <InfoAccordion />
 
     </div>
   );
