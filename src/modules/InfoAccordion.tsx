@@ -1,11 +1,8 @@
 import {Accordion, AccordionItem} from "@heroui/accordion";
 import InfoLocations from "./InfoLocations";
-import InfoPresents from "./InfoPresents";
 import InfoOther from "./InfoOther";
 
 export default function InfoAccordion() {
-  const defaultContent =
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
 
     const itemClasses = {
       base: "py-0 w-full text-left bold",
