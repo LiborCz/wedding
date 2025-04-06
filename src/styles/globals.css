@@ -3,22 +3,23 @@
 @tailwind utilities;
 
 @layer base {
+
     @font-face {
-      font-family: 'Wedding1';
+      font-family: 'wedding';
       font-style: normal;
       font-display: swap;
-      src: url(/fonts/TheWeddingSignature-Regular.woff2) format('woff2')
+      src: url("/fonts/Photograph Signature.ttf") format('woff2')
     }
 
     @font-face {
-        font-family: 'Wedding';
-        font-style: normal;
-        font-display: swap;
-        src: url("/fonts/Photograph Signature.ttf") format('woff2')
-      }
+      font-family: 'wedding1';
+      font-style: normal;
+      font-display: swap;
+      src: url("/fonts/TheWeddingSignature-Regular.woff2") format('woff2')
+    }
 
     html {
-        font-family: "Wedding", "Wedding1", sans-serif;
+        font-family: "wedding", "wedding1", sans-serif;
         }
   }
 
