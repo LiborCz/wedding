@@ -17,7 +17,7 @@ export default function InfoOther() {
       </div>
 
       <div className="my-2">
-        <p><b>Dary:</b> Dárky si nepřejeme, radost nám udělá vaše přítomnost. Pokud nás ale přesto chcete obdarovat, potěší nás menší finanční příspěvek dle rozumného uvážení, který využijeme na naši budoucnost (a možná i svatební cestu). <br />Ale aby bylo vše fajn, QR kód či údaje k příspěvku se zde objeví až v den svatby.... ;-)</p>
+        <p><b>Dary:</b> Dárky si nepřejeme, radost nám udělá vaše přítomnost. Pokud nás ale přesto chcete obdarovat, potěší nás menší finanční příspěvek dle Vašeho uvážení, který využijeme na financování svatební hostiny (případně i svatební cesty). <br />Ale aby bylo vše fajn, QR kód či údaje k příspěvku se zde objeví až v den svatby.... ;-)</p>
       </div>
     </div>
   );

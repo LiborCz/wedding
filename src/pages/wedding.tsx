@@ -43,7 +43,8 @@ export default function Wedding() {
         <img src="/img/ring.ico" className="logo w-10 lg:w-14 mb-10" alt="Rings..." />
       </section>
 
-      <p className="font-sans text-xs mb-6">--- průbežně budu informace níže aktualizovat ---</p>
+      <p className="font-sans text-xs mb-6">**** průbežně budu informace níže aktualizovat ****</p>
+      <p className="font-sans text-xs mb-10">--- po svatbě zde naleznete též odkaz na fotky ---</p>
 
       <InfoAccordion />
 
