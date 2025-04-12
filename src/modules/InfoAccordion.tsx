@@ -2,6 +2,7 @@ import {Accordion, AccordionItem} from "@heroui/accordion";
 import InfoLocations from "./InfoLocations";
 import InfoProgram from "./InfoProgram";
 import InfoOther from "./InfoOther";
+import InfoPeople from "./InfoPeople";
 
 
 export default function InfoAccordion() {
@@ -25,6 +26,9 @@ export default function InfoAccordion() {
         </AccordionItem>
         <AccordionItem key="3" title="Pár dalších informací">
           <InfoOther />
+        </AccordionItem>
+        <AccordionItem key="4" title="Hosté">
+          <InfoPeople />
         </AccordionItem>
       </Accordion>
       </div>
