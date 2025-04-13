@@ -31,8 +31,6 @@ export default function Wedding() {
         <div className="w-3/4 font-sans">
           <p className="text-xl mb-6">Následně proběhne odpoledne svatební raut na nedalekém statku - <a href="https://www.statek1738.cz"> <span className="underline">Statek 1738</span></a> - kde lze zůstat i na noc.</p>
           <p className="text-sm mb-6">( Pokud uvažujete o přespání, dejte vědět, aby jsme domluvili velikost pokoje a nejlepší způsob rezervace. V okolí je možné si udělat hezkou procházku k nedalekému Labi nebo se projet po cyklostezce...)</p>
-
-          <p className="text-xl mt-10 mb-10">Poprosím co nejdříve o zpětnou vazbu, zda se s Vámi uvidíme a kolik Vás přijede.</p>
         </div>
 
         <div className="">
@@ -40,13 +38,15 @@ export default function Wedding() {
           <p className="mb-2 lg:mb-4 ml-4 text-6xl">Libor & Regina</p>
         </div>
 
-        <img src="/img/ring.ico" className="logo w-10 lg:w-14 mb-10" alt="Rings..." />
+        <img src="/img/ring.ico" className="logo w-10 lg:w-14 mb-8" alt="Rings..." />
       </section>
 
-      <p className="font-sans text-xs mb-6">**** průbežně budu informace níže aktualizovat - poslední aktualizace: 12.dubna 16:00 ****</p>
-      <p className="font-sans text-xs mb-10">--- po svatbě zde naleznete též odkaz na fotky ---</p>
 
       <InfoAccordion />
+
+      <p className="font-sans text-xs mb-6 mt-10">**** průbežně budu informace níže aktualizovat - poslední aktualizace: 13.dubna 18:00 ****</p>
+      
+      <p className="font-sans text-xs mb-10">--- po svatbě zde naleznete též odkaz na fotky ---</p>
 
     </div>
   );
