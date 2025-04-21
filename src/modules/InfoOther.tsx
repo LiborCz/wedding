@@ -9,7 +9,7 @@ export default function InfoOther() {
       </div>
 
       <div className="my-2">
-        <p ><b>Děti:</b> pár dětí se na svatbě objeví (nejmladší ~2 roky?), navíc pak na statku je koutek s hračkami, případně s dětmi lze jít na prochazku k Labi (400m) a podobně...</p>
+        <p ><b>Děti:</b> pár dětí se na svatbě objeví (nejmladší ~2 roky?), navíc pak na Statku je koutek s hračkami, případně s dětmi lze jít na prochazku k Vltavě (300m) a podobně...</p>
       </div>
 
       <div className="my-2">

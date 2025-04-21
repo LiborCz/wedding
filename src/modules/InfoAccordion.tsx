@@ -1,15 +1,17 @@
 import {Accordion, AccordionItem} from "@heroui/accordion";
-import InfoLocations from "./InfoLocations";
 import InfoProgram from "./InfoProgram";
 import InfoOther from "./InfoOther";
 import InfoPeople from "./InfoPeople";
+import InfoCeremony from "./InfoCeremony";
+import InfoDriveOver from "./InfoDriveOver";
+import InfoStatek from "./InfoStatek";
 
 
 export default function InfoAccordion() {
 
     const itemClasses = {
       base: "py-0 w-full text-left bold",
-      title: "bold",
+      title: "font-bold",
       trigger: "px-2 py-0 data-[hover=true]:bg-default-100 rounded-lg h-14 flex items-center",
       indicator: "text-medium",
       content: "text-small px-4 pb-6",
@@ -18,16 +20,22 @@ export default function InfoAccordion() {
   return (
     <div className="font-sans">
       <Accordion variant="splitted" itemClasses={itemClasses}>
-        <AccordionItem key="1" title="Kde bude probíhat obřad a hostina">
-          <InfoLocations />
+        <AccordionItem key="1" title="Obřad">
+          <InfoCeremony />
         </AccordionItem>
-        <AccordionItem key="2" title="Přibližný Harmonogram dne">
+        <AccordionItem key="2" title="Cesta ze zámku na Statek">
+          <InfoDriveOver />
+        </AccordionItem>
+        <AccordionItem key="3" title="Odpolední setkání na Statku 1738">
+          <InfoStatek />
+        </AccordionItem>
+        <AccordionItem key="4" title="Přibližný Harmonogram dne">
           <InfoProgram />
         </AccordionItem>
-        <AccordionItem key="3" title="Pár dalších informací">
+        <AccordionItem key="5" title="Pár dalších informací">
           <InfoOther />
         </AccordionItem>
-        <AccordionItem key="4" title="Hosté">
+        <AccordionItem key="6" title="Seznam Hostů">
           <InfoPeople />
         </AccordionItem>
       </Accordion>
