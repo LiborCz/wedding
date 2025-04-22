@@ -5,6 +5,8 @@ import InfoPeople from "./InfoPeople";
 import InfoCeremony from "./InfoCeremony";
 import InfoDriveOver from "./InfoDriveOver";
 import InfoStatek from "./InfoStatek";
+import InfoChildren from "./InfoChildren";
+import InfoTaxi from "./InfoTaxi";
 
 
 export default function InfoAccordion() {
@@ -23,6 +25,9 @@ export default function InfoAccordion() {
         <AccordionItem key="1" title="Obřad">
           <InfoCeremony />
         </AccordionItem>
+        <AccordionItem key="6" title="Pro neřidiče">
+          <InfoTaxi />
+        </AccordionItem>
         <AccordionItem key="2" title="Cesta ze zámku na Statek">
           <InfoDriveOver />
         </AccordionItem>
@@ -32,10 +37,13 @@ export default function InfoAccordion() {
         <AccordionItem key="4" title="Přibližný Harmonogram dne">
           <InfoProgram />
         </AccordionItem>
-        <AccordionItem key="5" title="Pár dalších informací">
+        <AccordionItem key="5" title="Jak, kam a co s dětmi">
+          <InfoChildren />
+        </AccordionItem>        
+        <AccordionItem key="6" title="Pár dalších informací">
           <InfoOther />
         </AccordionItem>
-        <AccordionItem key="6" title="Seznam Hostů">
+        <AccordionItem key="7" title="Seznam Hostů">
           <InfoPeople />
         </AccordionItem>
       </Accordion>
