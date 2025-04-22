@@ -25,25 +25,25 @@ export default function InfoAccordion() {
         <AccordionItem key="1" title="Obřad">
           <InfoCeremony />
         </AccordionItem>
-        <AccordionItem key="6" title="Pro neřidiče">
+        <AccordionItem key="2" title="Pro neřidiče">
           <InfoTaxi />
         </AccordionItem>
-        <AccordionItem key="2" title="Cesta ze zámku na Statek">
+        <AccordionItem key="3" title="Cesta ze zámku na Statek">
           <InfoDriveOver />
         </AccordionItem>
-        <AccordionItem key="3" title="Odpolední setkání na Statku 1738">
+        <AccordionItem key="4" title="Odpolední setkání na Statku 1738">
           <InfoStatek />
         </AccordionItem>
-        <AccordionItem key="4" title="Přibližný Harmonogram dne">
+        <AccordionItem key="5" title="Přibližný Harmonogram dne">
           <InfoProgram />
         </AccordionItem>
-        <AccordionItem key="5" title="Jak, kam a co s dětmi">
+        <AccordionItem key="6" title="Jak, kam a co s dětmi">
           <InfoChildren />
         </AccordionItem>        
-        <AccordionItem key="6" title="Pár dalších informací">
+        <AccordionItem key="7" title="Pár dalších informací">
           <InfoOther />
         </AccordionItem>
-        <AccordionItem key="7" title="Seznam Hostů">
+        <AccordionItem key="8" title="Seznam Hostů">
           <InfoPeople />
         </AccordionItem>
       </Accordion>
