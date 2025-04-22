@@ -9,9 +9,9 @@ const people: PersonProps[] = input.map(p => {
   
   return ({
   group: group,
-  name: p.Who,
-  hide: p.Hide=="x",
-  status: p.Conf,
+  name: p.Celkem,
+  hide: p.H=="x",
+  status: p.S,
   adults: p. Dospeli,
   chQty: p.Deti,
   chAge: p.Age,

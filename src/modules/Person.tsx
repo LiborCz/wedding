@@ -3,7 +3,7 @@ export type PersonProps = {
   name: string;
   hide: boolean;
   status: string;
-  adults: string;
+  adults: number | null;
   chQty: number | null;
   chAge: string;
 }
