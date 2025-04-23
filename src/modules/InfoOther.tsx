@@ -18,9 +18,10 @@ export default function InfoOther() {
         {(new Date())<=new Date("2025-04-26")
         ? 
         "A aby vše vyšlo, QR kód či údaje k příspěvku se zde objeví až v den svatby.... ;-)"
-        : 
-        <span className="flex justify-center mt-4">
-          <Image src="/img/QRCode.jpg" width={200} alt="QR Kod pro případný příspěvek" />
+        :
+        <span className="flex flex-col items-center mt-4">
+          <Image src="/img/QRCode.jpg" width={200} style={{paddingBottom: "10px"}} alt="QR Kod pro případný příspěvek" />
+          670100-2208534414/6210
         </span>
         }
         </p>
