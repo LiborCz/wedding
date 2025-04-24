@@ -13,7 +13,7 @@ export default function Wedding() {
 
       <InfoAccordion />
 
-      <p className="font-sans text-xs mb-6 mt-10">**** průbežně budu informace níže aktualizovat - poslední aktualizace: 24.dubna 00:00 ****</p>
+      <p className="font-sans text-xs mb-6 mt-10">**** průbežně budu informace níže aktualizovat - poslední aktualizace: 25.dubna 00:00 ****</p>
       
       <p className="font-sans text-xs mb-5">--- po svatbě zde naleznete též odkaz na fotky ---</p>
 
