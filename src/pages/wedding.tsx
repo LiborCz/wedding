@@ -9,13 +9,15 @@ export default function Wedding() {
         <Image src="/img/Pozvanka.jpg" alt="Tištěná svatební pozvánka" />
       </div>
 
-      <p className="font-sans text-xs mb-6">FOR ENGLISH CONTENT PLEASE TRANSLATE THE PAGE USING GOOGLE</p>
+      <p className="font-sans text-xs mb-6 mt-5" style={{color:"#CC0000", fontWeight:"bold"}}>NESMÍRNĚ DĚKUJEME ZA VAŠI ÚČAST - BYLO TO KRÁSNÉ A MOC JSME SI TO UŽILI - DOUFÁME, ŽE I VY !!</p>
+
+      <p className="font-sans text-xs mb-6 mt-5" style={{color:"#CC0000", fontWeight:"bold"}}>WE ARE VERY GRATEFUL FOR YOUR PRESENCE - IT WAS AWSOME AND WE ENJOYED IT SO MUCH ! - HOPING YOU DID TOO !!</p>
+
+      <p className="font-sans text-[80%] mb-6" style={{fontSize:"0.6rem"}}>FOR ENGLISH CONTENT PLEASE TRANSLATE THE PAGE USING GOOGLE</p>
 
       <InfoAccordion />
 
-      <p className="font-sans text-xs mb-6 mt-10">**** průbežně budu informace níže aktualizovat - poslední aktualizace: 25.dubna 00:00 ****</p>
-      
-      <p className="font-sans text-xs mb-5">--- po svatbě zde naleznete též odkaz na fotky ---</p>
+      <p className="font-sans text-xs mb-6 mt-10">**** poslední aktualizace: 27.dubna 18:00 ****</p>
 
     </div>
   );

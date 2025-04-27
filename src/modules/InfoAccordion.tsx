@@ -7,6 +7,7 @@ import InfoDriveOver from "./InfoDriveOver";
 import InfoStatek from "./InfoStatek";
 import InfoChildren from "./InfoChildren";
 import InfoTaxi from "./InfoTaxi";
+import InfoPhotos from "./InfoPhotos";
 
 
 export default function InfoAccordion() {
@@ -22,6 +23,9 @@ export default function InfoAccordion() {
   return (
     <div className="font-sans">
       <Accordion variant="splitted" itemClasses={itemClasses}>
+        <AccordionItem key="0" title="Fotky / Photos">
+          <InfoPhotos />
+        </AccordionItem>
         <AccordionItem key="1" title="Obřad">
           <InfoCeremony />
         </AccordionItem>
