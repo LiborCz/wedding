@@ -1,6 +1,3 @@
-import { Image } from "@heroui/react";
-
-
 export default function InfoOther() {
 
   return (
