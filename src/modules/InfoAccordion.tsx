@@ -26,7 +26,7 @@ export default function InfoAccordion() {
         <AccordionItem key="0" title="Fotky / Photos">
           <InfoPhotos />
         </AccordionItem>
-        <AccordionItem key="1" title="Obřad">
+        {/* <AccordionItem key="1" title="Obřad">
           <InfoCeremony />
         </AccordionItem>
         <AccordionItem key="2" title="Pro neřidiče">
@@ -49,7 +49,7 @@ export default function InfoAccordion() {
         </AccordionItem>
         <AccordionItem key="8" title="Seznam Hostů">
           <InfoPeople />
-        </AccordionItem>
+        </AccordionItem> */}
       </Accordion>
       </div>
   );
