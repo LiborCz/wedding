@@ -37,7 +37,7 @@ export default function Wedding() {
 
       <InfoAccordion />
 
-      <p className="font-sans text-xs mb-6 mt-10">**** poslední aktualizace: 5.května 00:00 ****</p>
+      <p className="font-sans text-xs mb-6 mt-10">**** poslední aktualizace: 13.května 12:00 ****</p>
 
     </div>
   );
