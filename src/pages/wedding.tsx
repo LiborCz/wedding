@@ -24,7 +24,7 @@ export default function Wedding() {
       </p>
 
       <p className="font-sans text-[80%] mb-4 p-1" style={{fontSize:"0.8rem"}}>
-        Ohledně fotek - v tento moment se na fotkách od paní fotografky ještě pracuje, věříme, že během následujícího týdne již budou hotové a nasdílíme s Vámi jejich odkaz.
+        Ohledně fotek - paní fotografka fotky stále zpracovává. Mám slíbeno, že budou určitě do konce května. Jakmile budu mít k dispozici odkaz - nasdílím ho s Vámi.
       </p>
 
       <p className="font-sans text-[80%] mb-6 p-1" style={{fontSize:"0.8rem"}}>
