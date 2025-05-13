@@ -1,12 +1,12 @@
 import {Accordion, AccordionItem} from "@heroui/accordion";
-import InfoProgram from "./InfoProgram";
-import InfoOther from "./InfoOther";
-import InfoPeople from "./InfoPeople";
-import InfoCeremony from "./InfoCeremony";
-import InfoDriveOver from "./InfoDriveOver";
-import InfoStatek from "./InfoStatek";
-import InfoChildren from "./InfoChildren";
-import InfoTaxi from "./InfoTaxi";
+// import InfoProgram from "./InfoProgram";
+// import InfoOther from "./InfoOther";
+// import InfoPeople from "./InfoPeople";
+// import InfoCeremony from "./InfoCeremony";
+// import InfoDriveOver from "./InfoDriveOver";
+// import InfoStatek from "./InfoStatek";
+// import InfoChildren from "./InfoChildren";
+// import InfoTaxi from "./InfoTaxi";
 import InfoPhotos from "./InfoPhotos";
 
 
