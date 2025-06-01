@@ -8,7 +8,7 @@ export default function InfoOther() {
       </div>
 
       <div className="my-2">
-        <p ><b>Výběr fotek od paní fotografky</b> - Jakmile dostanu zpracované fotky, tak sem přidám další link s odkazem na tyto fotky...</p>
+        <p ><b>Výběr fotek od paní fotografky</b> - Odkaz <a href="https://drive.google.com/drive/folders/1vD55UuecHUcewAADNQWZKhg-FG-Q4_u8?usp=drive_link" target="_blank"><u>zde</u></a></p>
       </div>
 
     </div>
