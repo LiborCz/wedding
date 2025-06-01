@@ -25,7 +25,7 @@ export default function Wedding() {
 
       <p className="font-sans text-[80%] mb-4 p-1" style={{fontSize:"0.8rem", fontWeight:"bold"}}>
         Ohledně fotek - dnes jsme fotky společně s fotoalbem obdrželi - odkaz najedete níže - ale ještě jsem nestačil všechny projít a vybrat - zkusím hned zítra nebo pozítří - tudiž zatim dám do složky pod odkazem jen pár, takovou ochutnávku :-)... (ale pak přidám i ty, kde jsme společně s Vámi)<br />
-        PS: Je tam i ty se všemi hosty na obřadu, ty jsem nechal ve větším rozlišení, aby se daly trochu přiblížit... 
+        PS: Jsou tam i ty se všemi hosty na obřadu, ty jsem nechal ve větším rozlišení, aby se daly trochu přiblížit... 
       </p>
 
 
